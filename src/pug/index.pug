@@ -1,0 +1,10 @@
+extends ./_utils/_base.pug
+
+block append stylesheet
+  link(rel="stylesheet", href='/' + subDirectory + 'assets/css/index.css' + rev)
+
+block append upper
+  nav.navigation
+    ul.navigation-list.ff__ropa-sans#navigation-list
+      li.navigation-list-item.active(data-scene=0)
+        span 日本語日本語日本語
